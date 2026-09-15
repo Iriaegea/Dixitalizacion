@@ -1,1 +1,1 @@
-# Cuaderno de aula de Dixitalizaciongit 
+# Cuaderno de aula de Dixitalizaciongit
