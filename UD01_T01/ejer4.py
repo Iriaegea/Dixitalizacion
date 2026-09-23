@@ -7,4 +7,4 @@ resultado = 0
 if operacion == "+":
     resultado = numero1 + numero2
     print("""{numero1} + {numero2} = {resultado} """)
-elif operacion == "-":
+elif operacion == "-": 
