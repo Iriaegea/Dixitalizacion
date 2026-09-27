@@ -11,7 +11,7 @@ for palabra in arrayFrase:
     if not palabra in diccionario :
         diccionario[palabra] = 1
     else :
-        diccionario[palara] += 1
+        diccionario[palabra] += 1
 
 
 
