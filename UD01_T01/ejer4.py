@@ -1,10 +1,16 @@
 # Calculadora básica
 # Implementa una calculadora que acepte dos números y una operación (+, -, *, /) introducidos por consola.
-numero1 = int(input("Escribe un número: "))
-operación = str(input("Qué operación quieres hacer: "))
-numero2 = int(input("Escribe otro número: "))
+numero1 = float(input("Escribe un número: "))
+operacion = input("Qué operación quieres hacer: ")
+numero2 = float(input("Escribe otro número: "))
 resultado = 0
-if operacion == "+":
-    resultado = numero1 + numero2
-    print("""{numero1} + {numero2} = {resultado} """)
-elif operacion == "-": 
+
+match operacion:
+    case "+":
+        print(f"Sumando... {numero1 + numero2}")
+    case "-":
+        print(f"Restanfo... {numero1-numero2}")
+    case "*":
+        print(f"Multiplicando... {numero1*numero2}")
+    case "/":
+        print(f"Dividiendo... {numero1/numero2}")

@@ -1,4 +1,4 @@
-# Conversor de temperaturas
+"" # Conversor de temperaturas
 # Escribe un programa que pida al usuario una temperatura en grados Celsius y la convierta a Fahrenheit y Kelvin.
 
 celsius = float(input("Escribe una temperatura en Celsius para pasarla a Fahrenheit y Kelvin"))
