@@ -18,7 +18,7 @@ y2 = int(input("y: "))
 punto2=(x2, y2)
 
 
-distancia = ((punto2[0] - punto1{0} ** 2 + )(punto2[1]-punto1[1])**2)**0.5
+distancia = ((punto2[0] - punto1[0] ** 2 )+(punto2[1]-punto1[1])**2)**0.5
 
 
 print(f"La distancia es: {distancia}")
