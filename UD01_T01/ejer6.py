@@ -17,3 +17,10 @@ for numero in range(numero1, numero2+1):
 
     if(esPrimo):
         print(f"El numero {numero} es primo")
+
+
+
+#PARA SABER POSICION Y CONTENIDO O A LA VEZ: 
+
+# for i, letra in zip(range(len(arrayLetras)), letras):
+# print(f"letras[{i}] = {letra}")
