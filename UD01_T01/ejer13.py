@@ -3,17 +3,14 @@
 
 
 def es_par(n):
-    
-    if numero %2 ==0:
-        return True
-    
-    return False
+    return n % 2 ==0
+        
 
 if __name__ == "__main__":
 
-n = int(input("Escribe un número: "))
-if es_par(numero):
-    print(f"Es par")
-else :
-    print(f"No es par")
+    n = int(input("Escribe un número: "))
+    if es_par(n):
+        print(f"Es par")
+    else :
+        print(f"No es par")
 

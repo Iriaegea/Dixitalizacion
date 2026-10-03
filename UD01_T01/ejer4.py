@@ -1,6 +1,6 @@
 # Calculadora básica
 # Implementa una calculadora que acepte dos números y una operación (+, -, *, /) introducidos por consola.
-<<<<<<< Updated upstream
+
 numero1 = float(input("Escribe un número: "))
 operacion = input("Qué operación quieres hacer: ")
 numero2 = float(input("Escribe otro número: "))
